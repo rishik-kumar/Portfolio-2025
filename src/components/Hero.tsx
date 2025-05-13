@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
           
           <div className="flex space-x-4 mb-8 animate-fade-in-up">
             <a 
-              href="https://github.com/" 
+              href="https://github.com/rishik-kumar" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border hover:bg-secondary transition-colors"
@@ -30,7 +31,7 @@ const Hero = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/" 
+              href="https://www.linkedin.com/in/d-rishik-kumar-045b2b236/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border hover:bg-secondary transition-colors"
@@ -39,7 +40,7 @@ const Hero = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="mailto:contact@example.com" 
+              href="mailto:rishikkumar3002@gmail.com" 
               className="p-2 rounded-full border border-border hover:bg-secondary transition-colors"
               aria-label="Email"
             >
@@ -68,12 +69,9 @@ const Hero = () => {
             <div className="absolute -bottom-6 -right-6 w-full h-full border-4 border-portfolio-blue dark:border-blue-700 rounded-2xl -z-10" />
             <div className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 overflow-hidden rounded-2xl bg-gray-200">
               <img 
-                src="/placeholder.svg" 
+                src="/lovable-uploads/6b7c2c70-3ace-4c6f-8da1-565fb359a242.png" 
                 alt="Dharavath Rishik Kumar" 
                 className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.currentTarget.src = "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=1000";
-                }}
               />
             </div>
           </div>
