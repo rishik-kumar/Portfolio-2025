@@ -1,7 +1,7 @@
 
 import React from 'react';
 import SectionTitle from './SectionTitle';
-import { Code, Database, Layout, Server, Terminal, FileCode } from 'lucide-react';
+import { Code, Database, Layout, Server, Terminal, FileCode, User } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -24,6 +24,11 @@ const Skills = () => {
       title: "Design/UX",
       icon: <Layout size={24} className="text-portfolio-blue dark:text-blue-400" />,
       skills: ["Figma", "Adobe XD"]
+    },
+    {
+      title: "Soft Skills",
+      icon: <User size={24} className="text-portfolio-blue dark:text-blue-400" />,
+      skills: ["Critical Thinking", "Communication", "Problem Solving", "Teamwork", "Adaptability", "Time Management", "Confidence"]
     }
   ];
 
